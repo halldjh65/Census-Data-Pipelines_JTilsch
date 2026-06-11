@@ -8,7 +8,7 @@ def Census_Age():
     # year = int(input("Enter the year of data you want to pull: "))
 
     # Change this year to pull a different year of data
-    year = 2023
+    year = 2024
     year2 = year - 4
     print(f"{year2} - {year}")
 
@@ -256,8 +256,8 @@ def Census_Age():
 
     print(f"Data is consistent and accurate: {match_checker}")
 
-    Database_df.to_csv("C:/Users/jtilsch/OneDrive - Pioneer Valley Planning Commission/Desktop/Projects/Database Design/Data/Census Age/Census Age "+ str(year) + ".csv")
-    print(f"Dataframe printed to CSV in \nC:/Users/jtilsch/OneDrive - Pioneer Valley Planning Commission/Desktop/Projects/Database Design/Data/Census Age/{str(year)}.csv")
+    Database_df.to_csv("C:/Users/dhall/OneDrive - Pioneer Valley Planning Commission/Desktop/Projects/Database Design/Data/Census Age/Census Age "+ str(year) + ".csv")
+    print(f"Dataframe printed to CSV in \nC:/Users/dhall/OneDrive - Pioneer Valley Planning Commission/Desktop/Projects/Database Design/Data/Census Age/{str(year)}.csv")
 
 if __name__ == "__main__":
     Census_Age()
